@@ -13,7 +13,10 @@ public class Hospital {
         return null;
     }
 
-    public void addDoctor(Doctor d) { doctors.add(d); }
+    public void addDoctor(Doctor d) 
+    { 
+        doctors.add(d); 
+    }
     public void removeDoctor(int id) { doctors.removeIf(d -> d.getId() == id); }
     public void listDoctors() { for (Doctor d : doctors) System.out.println(d); }
     public Doctor findDoctor(int id) {

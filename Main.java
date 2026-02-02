@@ -7,7 +7,7 @@ public class Main {
         Scanner sc = new Scanner(System.in);
 
         while (true) {
-            System.out.println("\n*** Hospital Management System ***");
+            System.out.println("\n***** Hospital Management System *****");
             System.out.println("1. Add Patient\n2. Remove Patient\n3. List Patients");
             System.out.println("4. Add Doctor\n5. Remove Doctor\n6. List Doctors");
             System.out.println("7. Add Appointment\n8. Remove Appointment\n9. List Appointments");

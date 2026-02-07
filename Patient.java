@@ -11,8 +11,12 @@ public class Patient {
         this.ailment = ailment;
     }
 
-    public int getId() { return id; }
-    public String getName() { return name; }
+    public int getId() {
+        return id; 
+    }
+    public String getName() {
+        return name;
+    }
     public int getAge() { return age; }
     public String getAilment() { return ailment; }
 

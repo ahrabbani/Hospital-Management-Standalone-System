@@ -12,7 +12,9 @@ public class Doctor {
     public int getId() { 
         return id;
     }
-    public String getName() { return name; }
+    public String getName() { 
+        return name;
+    }
     public String getSpecialization() { return specialization; }
 
     public void setName(String name) { this.name = name; }
